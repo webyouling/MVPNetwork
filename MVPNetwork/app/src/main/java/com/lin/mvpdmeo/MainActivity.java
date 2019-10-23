@@ -1,12 +1,7 @@
 package com.lin.mvpdmeo;
-
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Context;
 import android.os.Bundle;
-
 import com.lin.mvpdmeo.mvp.base.BaseMVPActivity;
-import com.lin.mvpdmeo.mvp.base.BaseView;
 import com.lin.mvpdmeo.mvp.presenter.MainPresenter;
 
 public class MainActivity extends BaseMVPActivity<MainPresenter> {
