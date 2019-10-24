@@ -13,6 +13,6 @@ public class LoginPresenter extends BaseModelPresenter<LoginContract.Model, Logi
 
     @Override
     public void login() {
-        
+       getModule().login();
     }
 }
